@@ -6,13 +6,13 @@ spec:
   selector:
     matchLabels:
       app: nginx
+      test: fuga
   replicas: 4 # tells deployment to run 2 pods matching the template
   template:
     metadata:
       labels:
         app: nginx
         test: hoge
-        test2: fuga
     spec:
       containers:
       - name: nginx
