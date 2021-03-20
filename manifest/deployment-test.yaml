@@ -12,6 +12,7 @@ spec:
       labels:
         app: nginx
         test: hoge
+        test2: fuga
     spec:
       containers:
       - name: nginx
