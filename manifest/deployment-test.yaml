@@ -1,6 +1,5 @@
 apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
 kind: Deployment
-aaaaaaaa
 metadata:
   name: nginx-deployment
 spec:
@@ -16,6 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
+        hoge: fuga
         image: nginx:1.14.2
         ports:
         - containerPort: 80
