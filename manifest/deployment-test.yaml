@@ -15,6 +15,7 @@ spec:
         test: hoge2
         test3: hoge2
         test4: hoge2
+        test5: fuga
     spec:
       containers:
       - name: nginx
