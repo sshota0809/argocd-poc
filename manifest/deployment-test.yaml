@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:hogehogehoge
+        image: nginx:latest
         ports:
         - containerPort: 80
