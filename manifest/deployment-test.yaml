@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        iaamage: nginx:latest
+        image: nginx:latest
         ports:
         - containerPort: 80
