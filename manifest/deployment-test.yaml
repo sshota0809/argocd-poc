@@ -30,11 +30,11 @@ spec:
           initialDelaySeconds: 30
           periodSeconds: 5
           httpGet:
-            path: /hoge/fuga
+            path: /
             port: 80
         readinessProbe:
           initialDelaySeconds: 30
           periodSeconds: 5
           httpGet:
-            path: /hoge/fuga
+            path: /
             port: 80
