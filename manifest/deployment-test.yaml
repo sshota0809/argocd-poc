@@ -26,3 +26,15 @@ spec:
         image: nginx:latest
         ports:
         - containerPort: 80
+        livenessProbe:
+          initialDelaySeconds: 30
+          periodSeconds: 5
+          httpGet:
+            path: /hoge/fuga
+            port: 80
+        readinessProbe:
+          initialDelaySeconds: 30
+          periodSeconds: 5
+          httpGet:
+            path: /hoge/fuga
+            port: 80
