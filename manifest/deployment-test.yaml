@@ -18,8 +18,6 @@ spec:
         test3: hoge2
         test4: hoge2
         test5: fuga
-        test6: fuga2
-        test7: fuga3
     spec:
       containers:
       - name: nginx
