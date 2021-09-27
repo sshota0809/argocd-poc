@@ -14,9 +14,6 @@ spec:
     metadata:
       labels:
         app: nginx
-        test: hoge2
-        test3: hoge2
-        test4: hoge2
         test5: fuga2
     spec:
       containers:
